@@ -3,7 +3,8 @@
 # https://www.lintcode.com/ai/digit-recognition
 
 import pandas as pd
-from sklearn.linear_model import SGDClassifier
+from sklearn.ensemble import RandomForestClassifier
+#from sklearn.linear_model import SGDClassifier
 
 # Load data
 train = pd.read_csv('~/ai/DigitRecognition/train.csv')
@@ -19,7 +20,8 @@ y_train = train['label']
 X_test = test
 
 # Change to different model or hyperparameters
-model = SGDClassifier()
+#model = SGDClassifier() # accuracy 0.88
+model = RandomForestClassifier() # accuracy 0.95
 # Train model
 model.fit(X_train, y_train)
 # Predict via model
