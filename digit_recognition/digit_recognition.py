@@ -1,6 +1,9 @@
 # Digit Recognition
 #
 # https://www.lintcode.com/ai/digit-recognition
+#
+# other solutions: https://blog.csdn.net/searcher_recommeder/article/details/79482137
+# 
 
 import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
