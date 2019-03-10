@@ -1,4 +1,4 @@
-# Install pyenv install Mac
+# Install pyenv on Mac
 https://github.com/pyenv/pyenv
 
 ```
@@ -15,4 +15,5 @@ $ pip install numpy
 $ pip install pandas
 $ pip install scipy
 $ pip install scikit-learn
+$ python -m pip install jupyter
 ```
