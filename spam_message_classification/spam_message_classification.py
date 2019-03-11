@@ -1,6 +1,9 @@
 # Spam Message Classification
+#
 # https://www.lintcode.com/ai/spam-message-classification
+#
 # other solutions: https://github.com/yuweiming70/lintcode-AI/blob/master/%E5%9E%83%E5%9C%BE%E7%9F%AD%E4%BF%A1%E5%88%86%E7%B1%BB.py
+#
 
 import numpy as np
 import pandas as pd
@@ -53,7 +56,6 @@ def read_cvs(file):
     lines = len(data_list)
     label = np.zeros([lines - 1, ])
     content = []
-    train_data = csv.reader(open(os.path.expanduser(file), encoding='utf-8'))
     i = 0
     for data in data_list:
         if data[0] == 'Label' or data[0] == 'SmsId':
