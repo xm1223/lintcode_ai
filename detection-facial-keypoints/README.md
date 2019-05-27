@@ -1,6 +1,7 @@
 Facial Keypoint Detection
 
-https://www.lintcode.com/ai/detection-facial-keypoints/
+https://www.lintcode.com/ai/detection-facial-keypoints
+
 https://www.kaggle.com/c/facial-keypoints-detection
 
 Solutions:
