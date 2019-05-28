@@ -5,6 +5,7 @@ https://www.lintcode.com/ai/detection-facial-keypoints
 https://www.kaggle.com/c/facial-keypoints-detection
 
 Solutions:
+
 https://www.kaggle.com/karanjakhar/facial-keypoint-detection
 
 http://flothesof.github.io/convnet-face-keypoint-detection.html
